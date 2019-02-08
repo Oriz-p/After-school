@@ -102,6 +102,14 @@ css-grid{
   overflow: hidden;
 }
 
+@media screen and (max-width:384px){
+ 
+.css-grid{
+  grid-template-columns:repeat(auto-fit, minmax(90px,1fr));
+  grid-template-rows: 120px;
+}
+}
+
 #article p{
   font-weight:510;
 }
